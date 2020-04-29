@@ -28,6 +28,7 @@ export default class App extends Component {
           <div className="box"
             style={{backgroundColor: this.state.color}}
             onClick={this.onChange}>
+          <p className= "Click"> Click Here </p>
         </div>
       </div>
     )
