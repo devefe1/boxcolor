@@ -11,7 +11,12 @@ export default class App extends Component {
       clickCounter: 0
     }
   }
-
+ 
+  onChange = (e) => {
+    this.setState({
+      color
+    })
+  }
 
 
   render() {
