@@ -14,7 +14,7 @@ export default class App extends Component {
  
   onChange = (e) => {
     this.setState({
-      color
+      color: 'gold',
     })
   }
 
