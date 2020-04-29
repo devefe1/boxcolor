@@ -7,18 +7,12 @@ export default class App extends Component {
     super(props);
 
     this.state = {
-      color: 'blue',
+      color: 'purple',
       clickCounter: 0
     }
   }
 
-  onChange = (e) => {
-    this.setState({
-      color: 'aquamarine',
-      clickCounter: this.state.clickCounter++
-    })
-    console.log("click counter ===> ", this.state.clickCounter)
-  }
+
 
   render() {
     return (
