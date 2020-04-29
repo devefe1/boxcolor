@@ -25,7 +25,9 @@ export default class App extends Component {
     return (
       <div className="App">
         <h1> Color Box change .</h1>
-          <div className="box">
+          <div className="box"
+            style={{backgroundColor: this.state.color}}
+            onClick={this.onChange}>
         </div>
       </div>
     )
