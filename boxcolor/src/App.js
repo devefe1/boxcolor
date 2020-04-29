@@ -15,6 +15,7 @@ export default class App extends Component {
   onChange = (e) => {
     this.setState({
       color: 'gold',
+      clickCounter: this.state.clickCounter++;
     })
   }
 
