@@ -1,5 +1,27 @@
+.App {
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Raleway', sans-serif;
+}
+
+#count {
+  margin-bottom: -20px;
+  margin-left: 5%;
+  color: gray;
+}
+
+#title {
+  color: darkgreen;
+}
+
+
 .colorBox {
-  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  width: 1000px;
   height: 300px;
   transition: 0.3s;
 }
+
